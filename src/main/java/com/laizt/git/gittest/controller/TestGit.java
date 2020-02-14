@@ -8,4 +8,5 @@ public class TestGit {
     @RequestMapping("hello")
     public String testGit() {
         return "hello git +github!";
+    }
 }
