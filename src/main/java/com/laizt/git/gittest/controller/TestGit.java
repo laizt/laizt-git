@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestGit {
     @RequestMapping("hello")
     public String testGit(){
-        return "hello git -v0.1";
+        return "hello git -v0.6 master";
     }
 }
